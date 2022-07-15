@@ -56,3 +56,7 @@ void bonjour()
 {
     printf("Hello World");
 }
+void visionnaire()
+{
+    printf("SALUT LES VISIONNAIRE");
+}
