@@ -47,6 +47,12 @@ int main(int argc , char *argv[])
     gtk_fixed_put(GTK_FIXED(app->fixed) , app->bl[2] , 50 , 50);*/
     g_signal_connect(G_OBJECT(app->win) , "delete-event" , G_CALLBACK(gtk_main_quit) , NULL);
     gtk_widget_show_all(app->win);
+
     gtk_main();
     return EXIT_SUCCESS;
+}
+// La modification
+void bonjour()
+{
+    printf("Hello World");
 }
