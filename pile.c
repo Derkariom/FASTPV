@@ -36,5 +36,7 @@ int main()
     printf("Le sommet de la pile est %d\n" , sommet(p));
     p = depiler(p,5);
     printf("Le sommet de la pile est :%s" , sommet(p));
+    p = empiler(p,8);
+    printf("Le sommet de la pile est %d\n" , sommet(p));
     return 0;
 }
