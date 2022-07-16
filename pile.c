@@ -20,3 +20,12 @@ pile empiler(pile p,int n)
     element->suivant = p;
     return element;
 }
+int sommet(pile p)
+{
+    int s;
+    if(est_pile_vide(p))
+        printf("LA PILE EST VIDE\n");
+    else
+        s = p->n;
+    return s;
+}
