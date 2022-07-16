@@ -29,3 +29,10 @@ int sommet(pile p)
         s = p->n;
     return s;
 }
+int main()
+{
+    pile p = nouvel_pile();
+    p = empiler(p,5);
+    printf("Le sommet de la pile est %d\n" , sommet(p));
+    return 0;
+}
